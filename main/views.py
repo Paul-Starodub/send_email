@@ -1,7 +1,7 @@
 from django.views import generic
 from main.forms import ContactForm
 from main.models import Contact
-from servise import send
+from main.servise import send
 
 
 class ContactView(generic.CreateView):
